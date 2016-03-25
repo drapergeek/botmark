@@ -41,8 +41,23 @@ Bookmark.reopenClass({
     },
     {
       id: 7,
-      url: 'http://phoenixframework.org',
-      name: 'Phoenix',
+      url: 'http://readme.io',
+      name: 'Readme',
+    },
+    {
+      id: 8,
+      url: 'http://basecamp.com',
+      name: 'Basecamp',
+    },
+    {
+      id: 9,
+      url: 'http://sequelpro.com',
+      name: 'Sequel Pro',
+    },
+    {
+      id: 10,
+      url: 'http://learnelixir.tv',
+      name: 'Learn Elixir',
     },
   ]
 });
