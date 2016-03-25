@@ -1,0 +1,26 @@
+.bookmarks {
+  border-right: $base-border;
+  flex: 0 0 18em;
+  height: 100vh;
+  overflow-y: auto;
+  padding-top: $top-bar-height;
+}
+
+.bookmarks-item {
+  border-bottom: $base-border;
+}
+
+.bookmarks-item-link {
+  align-items: center;
+  display: flex;
+  padding: $base-spacing;
+
+  .favicon {
+    margin-right: $base-spacing;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $lighter-gray;
+  }
+}

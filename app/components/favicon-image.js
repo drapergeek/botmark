@@ -1,6 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  classNames: "favicon",
+
   baseUrl: function() {
     const domainRegex = /http:\/\/\w+\.(com|net|org)/;
     const matchingRegex = domainRegex.exec(this.get('bookmark.url'));

@@ -1,13 +1,12 @@
-<ul>
+<ol class="bookmarks">
   {{#each model as |bookmark|}}
-    <li>
-      {{favicon-image bookmark=bookmark}}
-
-      {{#link-to "bookmarks.bookmark" bookmark}}
+    <li class="bookmarks-item">
+      {{#link-to "bookmarks.bookmark" bookmark class="bookmarks-item-link"}}
+        {{favicon-image bookmark=bookmark}}
         {{bookmark.name}}
       {{/link-to}}
     </li>
   {{/each}}
-</ul>
+</ol>
 
 {{outlet}}

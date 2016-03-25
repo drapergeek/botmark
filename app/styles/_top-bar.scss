@@ -1,0 +1,13 @@
+.top-bar {
+  @include padding(null $base-spacing);
+  @include position(fixed, 0 0 null);
+  align-items: center;
+  background-color: white;
+  border-bottom: $base-border;
+  display: flex;
+  height: $top-bar-height;
+
+  h1 {
+    margin-bottom: 0;
+  }
+}
