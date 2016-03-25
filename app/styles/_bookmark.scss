@@ -2,5 +2,6 @@
   flex: 1;
   height: 100vh;
   overflow-y: auto;
-  padding-top: $top-bar-height;
+  padding: $base-spacing;
+  padding-top: $top-bar-height + $base-spacing;;
 }

@@ -15,12 +15,18 @@
   display: flex;
   padding: $base-spacing;
 
-  .favicon {
+  img {
+    @include size(1.5em);
     margin-right: $base-spacing;
   }
 
   &:hover,
   &:focus {
     background-color: $lighter-gray;
+  }
+
+  &.active {
+    background-color: $lighter-gray;
+    font-weight: 800;
   }
 }

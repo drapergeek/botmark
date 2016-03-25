@@ -1,5 +1,15 @@
-<form {{action "createBookmark" model on="submit"}}>
-  {{input value=model.name placeholder="Name"}}
-  {{input value=model.url placeholder="https://github.com"}}
-  <input type="submit" />
-</form>
+<div class="bookmark">
+  <h2>Add a new Bookmark</h2>
+  <form {{action "createBookmark" model on="submit"}}>
+    {{input value=model.name placeholder="Name"}}
+    {{input value=model.url placeholder="https://github.com"}}
+    <div class="form-actions">
+      {{#link-to "bookmarks"}}
+        Cancel
+      {{/link-to}}
+
+      <input type="submit" />
+    </div>
+  </form>
+
+</div>

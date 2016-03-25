@@ -4,8 +4,10 @@
   align-items: center;
   background-color: white;
   border-bottom: $base-border;
+  box-shadow: 0 1px 3px rgba($base-font-color, 0.1);
   display: flex;
   height: $top-bar-height;
+  justify-content: space-between;
 
   h1 {
     margin-bottom: 0;
