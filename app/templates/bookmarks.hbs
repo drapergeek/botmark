@@ -1,0 +1,11 @@
+<ul>
+  {{#each model as |bookmark|}}
+    <li>
+      {{#link-to "bookmarks.bookmark" bookmark}}
+        {{bookmark.name}}
+      {{/link-to}}
+    </li>
+  {{/each}}
+</ul>
+
+{{outlet}}
