@@ -13,7 +13,12 @@ Bookmark.reopenClass({
       id: 1,
       url: 'http://github.com',
       name: 'Github',
-    }
+    },
+    {
+      id: 2,
+      url: 'https://yahoo.com',
+      name: 'Yahoo',
+    },
   ]
 });
 

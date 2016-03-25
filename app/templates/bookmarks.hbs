@@ -1,4 +1,8 @@
 <ol class="bookmarks">
+  {{#link-to "bookmarks.new"}}
+    New Bookmark
+  {{/link-to}}
+
   {{#each model as |bookmark|}}
     <li class="bookmarks-item">
       {{#link-to "bookmarks.bookmark" bookmark class="bookmarks-item-link"}}
