@@ -1,6 +1,8 @@
 <ul>
   {{#each model as |bookmark|}}
     <li>
+      {{favicon-image bookmark=bookmark}}
+
       {{#link-to "bookmarks.bookmark" bookmark}}
         {{bookmark.name}}
       {{/link-to}}
