@@ -10,6 +10,7 @@ module.exports = function(defaults) {
       includePaths: [
         "node_modules/bourbon/core",
         "node_modules/normalize-scss/sass",
+        "node_modules/support-for/sass",
       ]
     }
   });
